@@ -1,4 +1,4 @@
-package com.ap.restservice.config;
+package com.app.config;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
