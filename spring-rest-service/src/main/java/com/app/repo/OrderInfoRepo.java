@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public interface OrderInfoRepo extends JpaRepository<OrderInfo, Long> {
-    public List<OrderInfo> findAll();
     public Page<OrderInfo> findAll(Pageable p);
 
 }

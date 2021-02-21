@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public interface OrderRepo extends JpaRepository<Order, Integer> {
-    public List<Order> findAll();
     public Page<Order> findAll(Pageable p);
 
 }
